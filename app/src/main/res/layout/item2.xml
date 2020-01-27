@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="26dp"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="TextView"></TextView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/but_style"
+        android:text="+"
+        android:textColor="#DFD9D7"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"></TextView>
+
+    <TextView
+        android:id="@+id/realPrice1"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"></TextView>
+
+    <TextView
+        android:id="@+id/buyPrice1"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:text="TextView"></TextView>
+
+    <TextView
+        android:id="@+id/coup"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:text="coup"></TextView>
+
+    <TextView
+        android:id="@+id/diff"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:text="coup"></TextView>
+
+
+</LinearLayout>
